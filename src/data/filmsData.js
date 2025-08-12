@@ -1,8 +1,8 @@
-// Film data for warboys production company
+// Film data for Warboys Films production company
 export const filmsData = [
   // Soundtrack to a Coup d'Etat
   {
-    id: 2,
+    id: 1,
     created_at: "2025-08-11 18:05:38.643848+00",
     film_title: "Soundtrack to a Coup d'Etat",
     title: "Soundtrack to a Coup d'Etat",
@@ -26,40 +26,13 @@ Jazz and decolonization are entwined in this forgotten episode of the Cold War, 
     banner_image: "https://i.ytimg.com/vi/_gK0ZXzSVj0/maxresdefault.jpg",
     director: "Johan Grimonprez",
     producer: "Daan Milius, Rémi Grellety",
-    awards: "It won the André Cavens Award for Best Film from the Belgian Film Critics Association. At the 97th Academy Awards, it was nominated for Best Documentary Feature Film",
+    awards: "97th Academy Awards, nomination for Best Documentary Feature Film\nSundance Film Festival Special Jury Prize for \"Cinematic Innovation\"\nAnd 30 other international film festival awards",
     festivals: "",
     slug: "soundtrack-to-a-coup-detat"
   },
-  // I Am Not Your Negro
-  {
-    id: 1,
-    created_at: "2025-08-11 18:05:38.643848+00",
-    film_title: "I Am Not Your Negro",
-    title: "I Am Not Your Negro",
-    image_url: "https://pro.imdb.com/title/tt5804038/#rmConst=rm4252043009",
-    video_player: "https://www.youtube.com/watch?v=rNUYdgIyaPM",
-    poster_url: "https://upload.wikimedia.org/wikipedia/en/3/31/I_Am_Not_Your_Negro.png",
-    info: "",
-    logline: "Writer James Baldwin tells the story of race in modern America with his unfinished novel, Remember This House.",
-    synopsis: `The film opens with a 1968 interview on The Dick Cavett Show. Cavett notes that Baldwin is often asked a stubborn question: "Why aren't the Negroes optimistic?" He says that many people believe the situation to be improving considerably, with Black people now holding positions of influence across society: as mayors, professional athletes, politicians and TV actors. Cavett asks Baldwin, "Is it at once getting much better and still hopeless?"
-
-In response, Baldwin says, "I don't think there's much hope for it, as long as people are using this peculiar language. It's not a question of what happens to the Negro here, [though] that is a very vivid question for me. The real question is what's going to happen to this country? I have to repeat that." Baldwin continues to assert throughout the film that the fate of the United States is directly linked to how effectively it addresses the plight of Black Americans. The prospects for the entire country and the prospects for Black Americans are inextricably tied together such that the truth and reckoning for one becomes the same for the other.
-
-The film is divided into five chapters across which Baldwin weaves the assassinations of Medgar Evers, Malcolm X, and Martin Luther King Jr.`,
-    runtime: 95,
-    language: "English",
-    genre: "History Documentary",
-    year: 2016,
-    banner_image: "https://i0.wp.com/www.saratogasinai.org/wp-content/uploads/2021/01/not-your-negro.jpg?fit=667%2C375&ssl=1",
-    director: "Raoul Peck",
-    producer: "Rémi Grellety, Hébert Peck, Raoul Peck",
-    awards: "Nominated for Best Documentary Feature at the 89th Academy Awards and won the BAFTA Award for Best Documentary",
-    festivals: "",
-    slug: "i-am-not-your-negro"
-  },
   // A Taste of Whale
   {
-    id: 3,
+    id: 2,
     created_at: "2025-08-11 18:05:38.643848+00",
     film_title: "A Taste of Whale",
     title: "A Taste of Whale",
@@ -87,25 +60,46 @@ Using beautiful, haunting, and rare footage, A TASTE OF WHALE relies on the spec
     banner_image: "https://m.media-amazon.com/images/S/pv-target-images/de8894569dca48452bf5c97ff0b8fabfccbd92c5a23de355c0e46fb0066d54f9._SX1080_FMjpg_.jpg",
     director: "Vincent Kelner",
     producer: "Rémi Grellety",
-    awards: "In 2022, Vincent Kelner received nominations at the CPH:DOX for the F:ACT Award and at the DocAviv Film Festival for the Beyond the Screen Competition.",
+    awards: "Main Festival Selection:\nCPH:DOX\nCinéma du Réel\nZurich Film Festival\n\nFilm acquired by ARTE",
     festivals: "",
     slug: "a-taste-of-whale"
+  },
+  // Untitled Brazil Land Issues Project
+  {
+    id: 3,
+    created_at: "2024-03-20 00:00:00.000000+00",
+    film_title: "Untitled Brazil Land Issues Project",
+    title: "Untitled Brazil Land Issues Project",
+    image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZd8g5NA-NRvSCk2cpoNiexulaWYhI7UkRfg&s",
+    video_player: "",
+    poster_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR73O7W4EyaXjRGKKSVNhNHy5dFdF2ga6Tadp3cCcVfPaL-HTT7HUuEdS66v6e4BLptSxI&usqp=CAU",
+    logline: "Project in development",
+    synopsis: "This project aims to investigate the question of land in Brazil, both from a historical perspective and from a current understanding of how land-related issues in the country reflect the tensions and hopes for social progress and climate change solutions.",
+    runtime: 0,
+    language: "",
+    genre: "Documentary",
+    year: 2026,
+    banner_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZd8g5NA-NRvSCk2cpoNiexulaWYhI7UkRfg&s",
+    director: "",
+    producer: "Rémi Grellety",
+    awards: "",
+    festivals: "",
+    slug: "untitled-brazil-land-issues-project"
   }
 ];
 
 export const companyData = {
-  name: "warboys",
+  name: "Warboys Films",
   description: "Independent production company crafting powerful documentaries that challenge perspectives and inspire global conversations.",
-  about: `warboys is an independent production company founded with a mission to create thought-provoking documentaries that explore the complexities of our modern world. 
-
+  about: `Warboys Films is an independent production company founded by two-time Oscar-nominated producer Rémi Grellety. 
+The company's mission is to create thought-provoking documentaries that explore the complexities of our modern world.
 We specialize in producing films that tackle challenging social, political, and cultural issues with nuance and depth. Our work spans historical documentaries, contemporary social investigations, and intimate character studies.
-
-With a focus on international co-productions and festival distribution, we collaborate with visionary directors and passionate storytellers to bring important stories to global audiences. Our films have been recognized at major international festivals and have received prestigious awards including Academy Award nominations and BAFTA wins.`,
+With a focus on international co-productions, we collaborate with visionary directors and passionate storytellers to bring important stories to global audiences. Our films have been recognized at major international festivals and have received prestigious awards including Academy Award nominations.`,
   focus: "Story-first, audience-centered filmmaking that bridges cultures and challenges conventional narratives across festivals and streaming platforms worldwide.",
-  contact: "For inquiries, collaborations, and press opportunities. Email: hello@warboys.com",
+  contact: "For inquiries, collaborations, and press opportunities.",
   producer: "Rémi Grellety",
   producerImage: "https://br.web.img3.acsta.net/c_310_420/img/2e/f2/2ef27cb44de32934a4940eb3a4f7d035.jpg",
-  producerBio: "Rémi Grellety (1986, French, gay, leftist) is a two-time Oscar and European Film Awards nominee, as well as an Emmy, Peabody, César, and BAFTA-winning film producer. For 15 years he produced Raoul Peck's films through Velvet Film (Paris, New York), including I AM NOT YOUR NEGRO (2016, Audience awards at both Toronto and Berlin), THE YOUNG KARL MARX (feature, 2017, Berlin), the HBO miniseries, EXTERMINATE ALL THE BRUTES (2021) as well as SILVER DOLLAR ROAD (2023, TIFF) for Amazon Studios. In parallel, Grellety has supported emerging filmmakers and produced six debut documentary films including A TASTE OF WHALE by Vincent Kelner (2022, CPH:DOX) and GARLAND JEFFREYS: THE KING OF BETWEEN by Claire Jeffreys (2023, DOC NYC Audience Award). He has then founded a new production company to focus on documentary features. His last production, SOUNDTRACK TO A COUP D'ETAT by Johan Grimonprez, won a Special Jury Award at Sundance 2024 for 'Cinematic Innovation', among many festival awards. He is a member of the Academy of Motion Picture Arts and Sciences as well as of the European and French Film Academies.",
+  producerBio: "Rémi Grellety is a two-time Oscar and European Film Awards nominee, as well as an Emmy, Peabody, César, and BAFTA-winning film producer. For 15 years he produced Raoul Peck's films through Velvet Film (Paris, New York), including I AM NOT YOUR NEGRO (2016, Audience awards at both Toronto and Berlin), THE YOUNG KARL MARX (feature, 2017, Berlin), the HBO miniseries, EXTERMINATE ALL THE BRUTES (2021) as well as SILVER DOLLAR ROAD (2023, TIFF) for Amazon Studios. In parallel, Grellety has supported emerging filmmakers and produced six debut documentary films including A TASTE OF WHALE by Vincent Kelner (2022, CPH:DOX) and GARLAND JEFFREYS: THE KING OF BETWEEN by Claire Jeffreys (2023, DOC NYC Audience Award). His last production, SOUNDTRACK TO A COUP D'ETAT by Johan Grimonprez, won a Special Jury Award at Sundance 2024 for 'Cinematic Innovation', among many festival awards. He is a member of the Academy of Motion Picture Arts and Sciences as well as of the European and French Film Academies.",
   awards: 12,
   festivals: 8
 };

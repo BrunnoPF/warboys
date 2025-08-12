@@ -12,18 +12,17 @@ function Home() {
       <Carousel
         height={600}
         images={[
-          { src: films[0]?.banner_image || 'https://images.unsplash.com/photo-1489599112830-07d977636ad3?w=1200&h=400&fit=crop', alt: films[0]?.title || 'Warboys production still 1' },
-          { src: films[1]?.banner_image || 'https://images.unsplash.com/photo-1611506050671-6c3835a57de1?w=1200&h=400&fit=crop', alt: films[1]?.title || 'Warboys production still 2' },
-          { src: films[2]?.banner_image || 'https://images.unsplash.com/photo-1507924538820-ede94a04019d?w=1200&h=400&fit=crop', alt: films[2]?.title || 'Warboys production still 3' },
+          { src: films[0]?.banner_image || 'https://images.unsplash.com/photo-1489599112830-07d977636ad3?w=1200&h=400&fit=crop', alt: films[0]?.title || 'Warboys Films production still 1' },
+          { src: films[1]?.banner_image || 'https://images.unsplash.com/photo-1611506050671-6c3835a57de1?w=1200&h=400&fit=crop', alt: films[1]?.title || 'Warboys Films production still 2' }
         ]}
       />
       <div className="hero-section">
-        <h1 className="main-title">{companyInfo?.name || 'warboys'}</h1>
+        <h1 className="main-title">{companyInfo?.name || 'Warboys Films'}</h1>
       </div>
 
       <div className="company-section">
         <div className="info-card company-description">
-          <h3>About warboys</h3>
+          <h3>About Warboys Films</h3>
           <div className="company-text">
             {companyInfo?.about?.split('\n').map((paragraph, index) => (
               <p key={index}>{paragraph}</p>

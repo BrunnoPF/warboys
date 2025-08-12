@@ -9,7 +9,7 @@ function Navigation() {
   return (
     <nav className="top-nav">
       <div className="brand">
-        <Link to="/">warboys</Link>
+        <Link to="/">Warboys Films</Link>
       </div>
       <div className="nav-links">
         {films.map((film) => (
