@@ -32,8 +32,6 @@ function Home() {
       </div>
 
 
-
-
       <div className="films-floating-section">
         <h2 className="films-title">Films</h2>
         <div className="film-posters-floating">

@@ -17,13 +17,6 @@ function Carousel({ images, height = 400 }) {
     setCurrentIndex(index);
   };
 
-  const goToPrevious = () => {
-    setCurrentIndex(currentIndex === 0 ? images.length - 1 : currentIndex - 1);
-  };
-
-  const goToNext = () => {
-    setCurrentIndex(currentIndex === images.length - 1 ? 0 : currentIndex + 1);
-  };
 
   return (
     <div className="carousel" style={{ height: `${height}px` }}>

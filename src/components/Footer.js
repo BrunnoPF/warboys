@@ -21,7 +21,6 @@ function Footer() {
           <nav>
             <Link to="/">Home</Link>
             <Link to="/films/soundtrack-to-a-coup-detat">Soundtrack to a Coup d'Etat</Link>
-            <Link to="/films/i-am-not-your-negro">I Am Not Your Negro</Link>
             <Link to="/films/a-taste-of-whale">A Taste of Whale</Link>
           </nav>
         </div>
