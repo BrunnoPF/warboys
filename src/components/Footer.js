@@ -37,7 +37,7 @@ function Footer() {
       </div>
       
       <div className="footer-bottom">
-        <p>&copy; {currentYear} Warboys Films. All rights reserved.</p>
+        <p>&copy; {currentYear} Backlands Films. All rights reserved.</p>
       </div>
     </footer>
   );

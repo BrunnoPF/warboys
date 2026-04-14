@@ -1,4 +1,4 @@
-// Film data for Warboys Films production company
+// Film data for Backlands Films production company
 export const filmsData = [
   // Soundtrack to a Coup d'Etat
   {
@@ -89,9 +89,9 @@ Using beautiful, haunting, and rare footage, A TASTE OF WHALE relies on the spec
 ];
 
 export const companyData = {
-  name: "Warboys Films",
+  name: "Backlands Films",
   description: "Independent production company crafting powerful documentaries that challenge perspectives and inspire global conversations.",
-  about: `Warboys Films is an independent production company founded by two-time Oscar-nominated producer Rémi Grellety. 
+  about: `Backlands Films is an independent production company dedicated to powerful storytelling. 
 The company's mission is to create thought-provoking documentaries that explore the complexities of our modern world.
 We specialize in producing films that tackle challenging social, political, and cultural issues with nuance and depth. Our work spans historical documentaries, contemporary social investigations, and intimate character studies.
 With a focus on international co-productions, we collaborate with visionary directors and passionate storytellers to bring important stories to global audiences. Our films have been recognized at major international festivals and have received prestigious awards including Academy Award nominations.`,

@@ -134,10 +134,6 @@ function FilmPage() {
                 <span className="detail-value">{film.director || 'TBA'}</span>
               </div>
               <div className="detail-row">
-                <span className="detail-label">Producer</span>
-                <span className="detail-value">{film.producer || 'TBA'}</span>
-              </div>
-              <div className="detail-row">
                 <span className="detail-label">Runtime</span>
                 <span className="detail-value">{film.runtime} minutes</span>
               </div>
